@@ -11,5 +11,3 @@ elif 0 <= media < 6:
     print(f'Aluno REPROVADO com média {media}.')
 else: 
     print(f'Valor da média inválida -> {media}')
-
-#
