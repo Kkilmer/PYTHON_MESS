@@ -11,7 +11,7 @@ class TestMultiplicar(unittest.TestCase):
 class TestDivisao(unittest.TestCase):
 
     def test_divisão_dois_por_tres(self):
-        self.assertEqual(divisão(2,3), -1)
+        self.assertEqual(divisão(2,3), 5)
 
 class TestSomar(unittest.TestCase):
 
