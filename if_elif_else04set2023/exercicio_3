@@ -6,4 +6,4 @@ if one1 == one2:
 elif one1 > one2:
     print(f'a ordem crescente é {one1} é {one2}')
 else: 
-    print(f'a ordem crescente é {one2} é {one1}')
+    print(f'a ordem decrescente é {one2} é {one1}')
