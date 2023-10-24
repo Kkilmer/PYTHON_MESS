@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        p {
+            line-height: 1.5;
+            color: #555;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        form {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        select {
+            margin-top: 5px;
+        }
+
+        h3,
+        h4 {
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="10135.png" alt=""><br>
+
+    <!-- NOME COMPLETO -->
+    <h1>Kevin Kilmer Alves Padilha</h1><br>
+    <p>Meu nome é Kevin Kilmer, tenho 22 anos, gosto de desafios<br>
+        e a cada dia uma oportunidade para se divertir, esse sou eu!<br></p>
+    <hr><br>
+
+    <!-- CAMPO DO QUE GOSTO -->
+    <p>O QUE EU GOSTO!</p>
+    <ul>
+        <li>Jogar</li>
+        <li>Ler</li>
+        <li>Tempo de qualidade</li>
+    </ul><br>
+
+    <!-- CAMPO DE HABILIDADES -->
+    <p>MINHAS HABILIDADES!</p>
+    <ol>
+        <li>Boa memória</li>
+        <li>Boa conversa</li>
+        <li>Jogar</li>
+    </ol>
+
+    <!-- CAMPO DE MAIS SOBRE KEVIN(GOSTO) -->
+    <a href="https://leitura.com.br/" target="_blank">MAIS SOBRE MIM</a>
+    <br><br>
+
+    <!-- CAMPO DE FORM -->
+    <h1>SAIBA MAIS SOBRE KEVIN</h1><br>
+    <h3>Preencha um pouco sobre você:</h3>
+
+    <form autocomplete="on" action="index.html" method="get">
+        <!-- CAMPO DO NOME -->
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required/><br>
+        <br>
+        <!-- CAMPO DO NÚMERO -->
+        <label for="numero">Número:</label>
+        <input type="number" name="numero"><br>
+        <br>
+        <!-- CAMPO EMAIL -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com..." required/><br>
+        <br>
+        <!-- CAMPO IDADE -->
+        <label for="idade">Idade:</label>
+        <input type="text" name="Idade" id="idade" placeholder="Sua idade..." maxlength="2" required/><br>
+        <br>
+        <h4>O que achou?</h4>
+        <select>
+            <option value="gostou">gostou (sim!)</option>
+            <option value="saber mais">quero saber mais...</option>
+        </select>
+    </form>
+</body>
+
+</html>
