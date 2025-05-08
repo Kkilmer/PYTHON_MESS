@@ -111,16 +111,6 @@ if __name__ == '__main__':
 
 Este código cria um servidor web local que renderiza o template `index.html`.
 
----
-
-## 📄 Arquivo `requirements.txt`
-
-Este arquivo contém as dependências necessárias para rodar a aplicação Flask:
-
-```
-Flask==2.0.1
-```
-
 ## 📌 Considerações Finais
 
 Este projeto serve como um estudo contínuo de conceitos fundamentais de programação com **Python**. Com o tempo, ele evoluirá para projetos mais complexos, com foco na resolução de problemas e integração de novos conceitos.
